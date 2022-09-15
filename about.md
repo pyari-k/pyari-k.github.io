@@ -19,10 +19,10 @@ Data Enthusiast, Android Developer & Trainer
 
 ##### Abandonded projects! (Not a risk-taker anymore!)
 * [Refresher Videos on Git](https://www.youtube.com/playlist?list=PL3nqqqYq7BxAmz5jzodaMdiGH9K3y29zQ) 
-* [Arithmetic Question Bank App (Early Access)](https://play.google.com/store/apps/details?id=com.pyari.secondquandrant.arithmeticquestionbank)
-* [Programming (Python) for Abhsolute beginners ](https://www.youtube.com/playlist?list=PLQTizSjUx0tUPMm5QrCp4qC42q3sX602h)
+* [Arithmetic Question Bank App](https://play.google.com/store/apps/details?id=com.pyari.secondquandrant.arithmeticquestionbank)
+* [Programming (Python) for Absolute beginners ](https://www.youtube.com/playlist?list=PLQTizSjUx0tUPMm5QrCp4qC42q3sX602h)
 
-#### They say I am a bit crazy 
+#### Craziness  
 * [My edit @ 42](https://www.youtube.com/watch?v=bOjDRuyCUDo)
 
 ### Personal blog 

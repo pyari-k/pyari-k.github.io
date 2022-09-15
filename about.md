@@ -27,7 +27,10 @@ Technology Enthusiast, Hands-on programmer @ 42, Loves teaching
 * [Blog in Malayalam](http://mydreamsandpassions2.blogspot.com)
 
 ##### They say, I'm a bit crazy  
-* [My edit @ 42](https://www.youtube.com/watch?v=bOjDRuyCUDo)
+* [My edits](https://www.youtube.com/watch?v=bOjDRuyCUDo)
+
+##### Stay happy :) 
+* [Playlist](https://www.youtube.com/playlist?list=PL3nqqqYq7BxCL3uY7lAgsTHaW4D7Anam3)
 
 
 

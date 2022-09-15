@@ -26,4 +26,7 @@ Data Enthusiast, Android Developer & Trainer
 * [My edit @ 42](https://www.youtube.com/watch?v=bOjDRuyCUDo)
 
 ### Personal blog 
-[Blog in Malayalam](http://mydreamsandpassions2.blogspot.com/)
+* [Blog in Malayalam](http://mydreamsandpassions2.blogspot.com)
+
+
+

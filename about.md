@@ -5,7 +5,8 @@ permalink: /about/
 published: true
 ---
 
-Data Enthusiast, Android Developer & Trainer
+Technology Enthusiast, Hands-on programmer @ 42, Loves teaching
+
 
 ##### Apps Developed
 * [Kannada-Malayalam Learning App](https://play.google.com/store/apps/details?id=com.pyari.secondquadrant.kannada)

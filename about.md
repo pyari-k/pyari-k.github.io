@@ -22,7 +22,7 @@ Data Enthusiast, Android Developer & Trainer
 * [Arithmetic Question Bank App (Early Access)](https://play.google.com/store/apps/details?id=com.pyari.secondquandrant.arithmeticquestionbank)
 * [Programming (Python) for Abhsolute beginners ](https://www.youtube.com/playlist?list=PLQTizSjUx0tUPMm5QrCp4qC42q3sX602h)
 
-#### Beware, they say I am a bit eccentric/crazy 
+#### They say I am a bit crazy 
 * [My edit @ 42](https://www.youtube.com/watch?v=bOjDRuyCUDo)
 
 ### Personal blog 

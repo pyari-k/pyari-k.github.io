@@ -10,12 +10,20 @@ Data Enthusiast, Android Developer & Trainer
 ##### Apps Developed
 * [Kannada-Malayalam Learning App](https://play.google.com/store/apps/details?id=com.pyari.secondquadrant.kannada)
 * [Kannada-Hindi Learning App](https://play.google.com/store/apps/details?id=com.pyari.secondquadrant.kannadahindi)
-* [Arithmetic Question Bank App (Early Access)](https://play.google.com/store/apps/details?id=com.pyari.secondquandrant.arithmeticquestionbank)
 
 ##### Training Materials
-* [Refresher Videos on Git](https://www.youtube.com/playlist?list=PL3nqqqYq7BxAmz5jzodaMdiGH9K3y29zQ) 
 * [Github repository - Python Training](https://github.com/pyarisinghk/Python-Training)
 
-##### Casual Blog
+##### Chit chats 
 * [Blog on Medium](https://medium.com/@pyarisingh)
 
+##### Abandonded projects! (Not a risk-taker anymore!)
+* [Refresher Videos on Git](https://www.youtube.com/playlist?list=PL3nqqqYq7BxAmz5jzodaMdiGH9K3y29zQ) 
+* [Arithmetic Question Bank App (Early Access)](https://play.google.com/store/apps/details?id=com.pyari.secondquandrant.arithmeticquestionbank)
+* [Programming (Python) for Abhsolute beginners ](https://www.youtube.com/playlist?list=PLQTizSjUx0tUPMm5QrCp4qC42q3sX602h)
+
+#### Beware, they say I am a bit eccentric/crazy 
+* [My edit @ 42](https://www.youtube.com/watch?v=bOjDRuyCUDo)
+
+### Personal blog 
+[Blog in Malayalam](http://mydreamsandpassions2.blogspot.com/)

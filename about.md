@@ -16,7 +16,7 @@ Technology Enthusiast, Hands-on programmer @ 42, Loves teaching
 * [Github repository - Python Training](https://github.com/pyarisinghk/Python-Training)
 
 ##### Chit chats 
-* [Blog on Medium](https://medium.com/@pyarisingh)
+* [Blog on Medium](https://medium.com/@pyari-kumaran)
 
 
 ##### Happy Developer - Short videos on developer tools
@@ -30,9 +30,9 @@ Technology Enthusiast, Hands-on programmer @ 42, Loves teaching
 
 
 ##### Personal blog 
-* [Blog in Malayalam](http://mydreamsandpassions2.blogspot.com)
+* [Blog - Malayalam](http://mydreamsandpassions2.blogspot.com)
 
-##### They say, I'm a bit crazy  
+##### Not hiding my craziness!  
 * [An edit](https://www.youtube.com/watch?v=bOjDRuyCUDo)
 
 ##### Stay happy :) 

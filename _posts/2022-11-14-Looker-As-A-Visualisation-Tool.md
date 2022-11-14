@@ -7,13 +7,13 @@ Where are the allocated budgets being used? How much money have we burnt?
 Where are we with our targets? What percentage of our company assets are with remote workers?
 What is the gender ratio in your organisation? What was our revenue last week?
 
-Questions like these can be overwhelming if you are a first time manager. We might tend to ramble or start being long winded when we have to answer questions like this. Thanks to the data visualisation tools in the market. There are better ways to tackle questions like this. It is an old saying that is going to be of our help. 
+Questions like these can be overwhelming if you are a first time manager. We might tend to ramble while  answering questions like this. Thanks to the data visualisation tools in the market. There are better ways to tackle questions like this. It is an old saying that is going to be of our help. 
 
 `A picture is worth a thousand words`
 
  ![_config.yml]({{ site.baseurl }}/images/looker.png)
 
-Data visualisation is a good to have skills which will help you in cases like this. 
+Data visualisation is a good to have skill which will help you in cases like this. 
 There are many visualisation tools in the market. Some of them are:
 * qlikview
 * tableau
@@ -26,7 +26,7 @@ In this blog, we will be taking a look at data studio/looker in detail and get f
 * Looker creates beautiful visualisations
 * There are cool features like sliders, date pickers and score cards that makes data visualisation customisable for the end users. 
 * The edit mode and view mode helps one who is creating the dashboard to get a feel of how the end user gets to see the dashboard with just one toggle. 
-* Access rights are easy to control. It is very much similar to the access rights . So, gmail users can have a smooth induction to data studio/looker. We will see all these a bit more in detail in the subsequent portions of the blog. 
+* Access rights are easy to control. It is very much similar to how it is done in the case of google drive. So, gmail users can have a smooth induction to data studio/looker. We will see all these a bit more in detail in the subsequent portions of the blog. 
 
 For this demo, we are using [this dataset](https://docs.google.com/spreadsheets/d/11kStaWZ24G7ahZ9rsZ7Q2EAuzHwly8UaWilvue-jKQQ/edit?usp=sharing). This data set has a set of books and information related to that. 
 Now, let us try asking questions like these. 
@@ -41,7 +41,7 @@ Now, let us try asking questions like these.
 ### Connecting to the data source 
 The first step is to `connect data studio or looker to the data source`. 
 In this case, the data source is a google spreadsheet. 
-To get a feel of how this can be done, a short video has been created here[https://youtu.be/OaWl7dG35Qg].
+To get a feel of how this can be done, a short video has been created [here](https://youtu.be/OaWl7dG35Qg).
 It is to be noted that, looker has connectors to various data sources. 
 
 ### Score Card 
@@ -49,10 +49,10 @@ A good & beautiful feature of data studio is a score card. This helps us to disp
 A score card in use will look like this:
  ![_config.yml]({{ site.baseurl }}/images/04_ds_score_card.png)
 
- Herewith linked is a short video[https://youtu.be/OLQj3RsANCQ] of how a score can be used in our case to display the no: of books in the data set. In this case, we assume that the number of rows in the data set is the number of books. Hence, the label `number of books` might be more meaningful in a visual. We can hence label the record count to "no; of books". Here is a short simple video[https://youtu.berla1WW-QxgI] of how the record count can be relabelled to no: of books.  
+ Herewith linked is a [short video](https://youtu.be/OLQj3RsANCQ) of how a score can be used in our case to display the no: of books in the data set. In this case, we assume that the number of rows in the data set is the number of books. Hence, the label `number of books` might be more meaningful in a visual. We can hence label the record count to "no; of books". Here is a short [simple video](https://youtu.berla1WW-QxgI) of how the record count can be relabelled to no: of books.  
 
 ### Editing the data source 
- In case, if we need the data source to be edited[https://youtu.be/HK6NCmXg3JA], that is also possible. There is an edit option to the data source. The data can be refreshed after reconnecting to the data source in case if it doesn't get automatically refreshed. 
+ In case, if we need the data source to be [edited](https://youtu.be/HK6NCmXg3JA), that is also possible. There is an edit option to the data source. The data can be refreshed after reconnecting to the data source in case if it doesn't get automatically refreshed. 
  
 ### Charts 
 Bar Charts & Pie Charts can easily be created using looker. Below are two charts prepared using data studio. 

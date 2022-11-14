@@ -81,7 +81,7 @@ It is a nice and trivial feature of Looker studio. You may take a look at this [
 ### Edit mode and view mode 
 A dashboard has two type of users. The one who is creating the dashboard and the one who is viewing the end results. Looker hence has two modes. The one who is creating the dashboard can switch between the modes so that she/he gets a feel of how the end user gets to see the final dashboard. Yet another [video](https://youtu.be/wR30WdA-6r8) is linked here to demonstrate this feature. 
 
-So, we are hitting some of the coolest features of looker. 
+So, we are moving to some of the coolest features of looker. 
 Don't you think that it is good to leave the end user do some exploration on the dashboard themselves? Looker dashboards can be made dynamic with the help of controls like:
 * slider
 * date picker

@@ -21,9 +21,10 @@ Technology Enthusiast, Hands-on programmer @ 42, Loves teaching
 
 ##### Happy Developer - Short videos on developer tools
 * [Docker for developers - Malayalam](https://www.youtube.com/watch?v=Q6FfAOKGTzg)
+* [Short videos on Looker](https://www.youtube.com/playlist?list=PLQTizSjUx0tXV7eyjmQZOG9KlyhQORnSh)
 
 
-##### Abandonded projects! (Not a risk-taker anymore!)
+##### Abandonded projects! (I fail often!)
 * [Programming (Python) for Absolute beginners ](https://www.youtube.com/playlist?list=PLQTizSjUx0tUPMm5QrCp4qC42q3sX602h)
 * [Arithmetic Question Bank App](https://play.google.com/store/apps/details?id=com.pyari.secondquandrant.arithmeticquestionbank)
 * [Refresher Videos on Git](https://www.youtube.com/playlist?list=PL3nqqqYq7BxAmz5jzodaMdiGH9K3y29zQ) 

@@ -111,10 +111,6 @@ All the videos used for this blog has been clubbed under a [looker playlist here
 
 Happy Dashboarding. :) 
 
-
-
-Before I close, thanks to my classmate & friend Dhanush for allowing me use his data for this blog. The data used has a collection of his books. 
-
 Thank you section :)
 * Thanks to WDA for the opportunity & selecting me to be a part of the current cohort. 
 * Thanks to my schoolmate and friend Dhanush, for allowing me to use his collection of books and the associated data for the demo purposes in this blog. 

@@ -3,11 +3,14 @@ layout: post
 title: Looker - A good to know tool for first time managers 
 ---
 Are you a first time manager or do you get asked a lot of questions at work?
-Where are the allocated budgets being used? How much money have we burnt?
-Where are we with our targets? What percentage of our company assets are with remote workers?
-What is the gender ratio in your organisation? What was our revenue last week?
+* Where are the allocated budgets being used? 
+* How much money have we burnt?
+* Where are we with our targets? 
+* What percentage of our company assets are with remote workers?
+* What is the gender ratio in your organisation? 
+* What was our revenue last week?
 
-Questions like these can be overwhelming if you are a first time manager. We might tend to ramble while  answering questions like this. Thanks to the data visualisation tools in the market. There are better ways to tackle questions like this. It is an old saying that is going to be of our help. 
+Questions like these can get overwhelming if you are a first time manager. We might tend to ramble while  answering questions like this. Thanks to the data visualisation tools available in the market. There are better ways to tackle questions like these. It is an old saying that is going to be of our help. 
 
 `A picture is worth a thousand words`
 
@@ -26,7 +29,7 @@ In this blog, we will be taking a look at data studio/looker in detail and get f
 * Looker creates beautiful visualisations
 * There are cool features like sliders, date pickers and score cards that makes data visualisation customisable for the end users. 
 * The edit mode and view mode helps one who is creating the dashboard to get a feel of how the end user gets to see the dashboard with just one toggle. 
-* Access rights are easy to control. It is very much similar to how it is done in the case of google drive. So, gmail users can have a smooth induction to data studio/looker. We will see all these a bit more in detail in the subsequent portions of the blog. 
+* Access rights are easy to control. It is very much similar to how it is done in the case of google drive. So, gmail users can have a smooth induction to data studio/looker. We will see all these a bit more in detail in the subsequent sections of the blog. 
 
 For this demo, we are using [this dataset](https://docs.google.com/spreadsheets/d/11kStaWZ24G7ahZ9rsZ7Q2EAuzHwly8UaWilvue-jKQQ/edit?usp=sharing). This data set has a set of books and information related to that. 
 Now, let us try asking questions like these. 
@@ -62,10 +65,10 @@ Bar Charts & Pie Charts can easily be created using looker. Below are two charts
  ![_config.yml]({{ site.baseurl }}/images/04_ds_pie_chart.png)
 
 Creating a pie chart and bar chart is based on similar principles. All you have to do would be to insert a chart and select a type. Plots might be created by some default dimension which is selected by default. We might have to change the chart to reflect the dimension of our choice. 
-In this case, we can try plotting the original language in this books are written  using pie charts. So, when we choose the chart, the dimension to be choosen would be Original Language. 
+In this case, we can try plotting the original language in which these books are written using pie charts. So, when we choose the chart, the dimension to be choosen would be Original Language. 
 The bar charts are plotted to see the details of the authors in the collection. In that case, when the bar chart is created, the dimesion to be chosen will be authors. 
 
-Videos to the creation of bar and pie charts are linked below:
+Videos demonstrating the creation of bar and pie charts are linked below:
 * [pie chart](https://youtu.be/_LYQrW4J0GQ) 
 * [bar chart](https://youtu.be/EJZ_eeQwVHI)
 
@@ -73,19 +76,19 @@ Before moving to some of the coolest features, let us touch upon some of the obv
 
 ### Access rights to the looker dashboards 
 Like in the case of google drive, one can share the dashboards via email IDs. 
-It is a nice and trivial feature of Looker studio. You may take a look at this [video](https://youtu.be/EJZ_eeQwVHI), to see this in action. 
+It is a nice and trivial feature of Looker studio. You may take a look at this [video](https://youtu.be/EJZ_eeQwVHI), to see this feature in action. 
 
 ### Edit mode and view mode 
 A dashboard has two type of users. The one who is creating the dashboard and the one who is viewing the end results. Looker hence has two modes. The one who is creating the dashboard can switch between the modes so that she/he gets a feel of how the end user gets to see the final dashboard. Yet another [video](https://youtu.be/wR30WdA-6r8) is linked here to demonstrate this feature. 
 
 So, we are hitting some of the coolest features of looker. 
-Don't you think that it is good to leave the end user do some exploration on the dashboard themselves. Looker dashboards can be made dynamic with the help of controls like:
+Don't you think that it is good to leave the end user do some exploration on the dashboard themselves? Looker dashboards can be made dynamic with the help of controls like:
 * slider
 * date picker
 * drop down list 
 
 ### Slider 
-A slider helps you to choose the values in a given range. In our case, we can probably say, show me the first 100 books. Or show us what number of books were purchased paying more than INR 500? This is how a slider would look like:
+A slider helps you to choose the values in a given range. With this data set, we can probably say, show me the first 100 books. Or show us what number of books were purchased paying more than INR 500? This is how a slider would look like:
 
  ![_config.yml]({{ site.baseurl }}/images/05_ds_slider.png)
 
@@ -104,7 +107,12 @@ Drop down list also helps build dynamic dashboard. This gives the flexibility to
 
 
 
-There are many more features on looker. Quickly touching upon on few more here. But, they are not elaborated. One can divide the dashboard into pages. We have multiple connectors to connect to various data sources. We can add filters to the data. There are many more types of charts and controls. 
+There are many more features on looker. Quickly touching upon on few more here. But, they are not elaborated. 
+* One can divide the dashboard into pages. 
+* We have multiple connectors to connect to various data sources. 
+* We can add filters to the data. 
+* There are many more types of charts and controls. 
+
 I will leave it to you to explore more of these features of looker. 
 
 All the videos used for this blog has been clubbed under a [looker playlist here](https://www.youtube.com/playlist?list=PLQTizSjUx0tXV7eyjmQZOG9KlyhQORnSh). 

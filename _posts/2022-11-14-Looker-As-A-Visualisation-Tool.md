@@ -3,7 +3,7 @@ layout: post
 title: Looker - A good to know tool for first time managers 
 ---
 Are you a first time manager or do you get asked a lot of questions at work?
-Where are the allocated budget being used? How much money have we burnt?
+Where are the allocated budgets being used? How much money have we burnt?
 Where are we with our targets? What percentage of our company assets are with remote workers?
 What is the gender ratio in your organisation? What was our revenue last week?
 
@@ -13,10 +13,10 @@ Questions like these can be overwhelming if you are a first time manager. We mig
 
 Data visualisation is a good to have skills which will help you in cases like this. 
 There are many visualisation tools in the market. Some of them are:
-1. qlikview
-2. tableau
-3. powerbi
-4. Data studio (now looker)
+* qlikview
+* tableau
+* powerbi
+* Data studio (now looker)
 
 In this blog, we will be taking a look at data studio/looker in detail and get familiarised with it. The reasons, data studio is recommended over other tools is because of the following advantages:
 * Like other products from Google, DS/Looker is cloud based. This also means that we do not have to install any software to start using this. We can just type datastudio.google.com or lookerstudio.google.com on our browser and login with our gmail. We are good to go. 
@@ -36,23 +36,23 @@ Now, let us try asking questions like these.
 * What are the pricing of these books? What are their ranges and their distribution?
 * When were these books procured? Given a time period, say 2022 or the last 6 months, can I find the details of the books which are procured during that period?
 
-*** Connecting to the data source ***
+### Connecting to the data source 
 The first step is to `connect data studio or looker to the data source`. 
 In this case, the data source is a google spreadsheet. 
 To get a feel of how this can be done, a short video has been created here[https://youtu.be/OaWl7dG35Qg].
 It is to be noted that, looker has connectors to various data sources. 
 
-*** Score Card *** 
+### Score Card 
 A good & beautiful feature of data studio is a score card. This helps us to display any count of records that we are looking for. 
 A score card in use will look like this:
  ![_config.yml]({{ site.baseurl }}/images/04_ds_score_card.png)
 
  Herewith linked is a short video[https://youtu.be/OLQj3RsANCQ] of how a score can be used in our case to display the no: of books in the data set. In this case, we assume that the number of rows in the data set is the number of books. Hence, the label `number of books` might be more meaningful in a visual. We can hence label the record count to "no; of books". Here is a short simple video[https://youtu.berla1WW-QxgI] of how the record count can be relabelled to no: of books.  
 
-*** Editing the data source ***
+### Editing the data source 
  In case, if we need the data source to be edited[https://youtu.be/HK6NCmXg3JA], that is also possible. There is an edit option to the data source. The data can be refreshed after reconnecting to the data source in case if it doesn't get automatically refreshed. 
  
-*** Charts ***
+### Charts 
 Bar Charts & Pie Charts can easily be created using looker. Below are two charts prepared using data studio. 
  ![_config.yml]({{ site.baseurl }}/images/04_ds_bar_chart.png)
  ![_config.yml]({{ site.baseurl }}/images/04_ds_pie_chart.png)
@@ -67,11 +67,11 @@ Videos to the creation of bar and pie charts are linked below:
 
 Before moving to some of the coolest features, let us touch upon some of the obvious and trivial features of looker. 
 
-*** Access rights to the looker dashboards ***
+### Access rights to the looker dashboards 
 Like in the case of google drive, one can share the dashboards via email IDs. 
 It is a nice and trivial feature of Looker studio. You may take a look at this [video](https://youtu.be/EJZ_eeQwVHI), to see this in action. 
 
-*** Edit mode and view mode ***
+### Edit mode and view mode 
 A dashboard has two type of users. The one who is creating the dashboard and the one who is viewing the end results. Looker hence has two modes. The one who is creating the dashboard can switch between the modes so that she/he gets a feel of how the end user gets to see the final dashboard. Yet another [video](https://youtu.be/wR30WdA-6r8) is linked here to demonstrate this feature. 
 
 So, we are hitting some of the coolest features of looker. 
@@ -80,7 +80,7 @@ Don't you think that it is good to leave the end user do some exploration on the
 * date picker
 * drop down list 
 
-*** Slider ***
+### Slider 
 A slider helps you to choose the values in a given range. In our case, we can probably say, show me the first 100 books. Or show us what number of books were purchased paying more than INR 500? This is how a slider would look like:
 
  ![_config.yml]({{ site.baseurl }}/images/05_ds_slider.png)

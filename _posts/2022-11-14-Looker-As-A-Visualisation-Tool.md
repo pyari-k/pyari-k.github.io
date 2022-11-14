@@ -91,13 +91,13 @@ A slider helps you to choose the values in a given range. In our case, we can pr
 
 Let us see how a slider can show us the details of books which costs less than some selected prirce. Take a look at the slider in action [here](https://youtu.be/-rRI_aKpOz4). 
 
-* date picker
+### Date picker
 Date picker is another feature which helps to build dynamic dashboards. The end user can select dates for viewing the data between the selected dates. [Video linked here](https://youtu.be/aTmVSwqbwIQ) The entire dashboard gets redrawn for the selected dates only. 
 
  ![_config.yml]({{ site.baseurl }}/images/05_ds_date_picker.png)
 
 
-* drop down list
+### Drop down list
 Drop down list also helps build dynamic dashboard. This gives the flexibility to the end user to re-render the charts using the selected items in a drop down. For eg, if we want to give an option to the end user to choose the category of books to be defined by him/her to redraw the charts, we can build a drop down list to our chart. [Video linked](https://youtu.be/oLMTYeCDJf0)
 
  ![_config.yml]({{ site.baseurl }}/images/06_ds_drop_down_list.png)

@@ -49,7 +49,7 @@ A good & beautiful feature of data studio is a score card. This helps us to disp
 A score card in use will look like this:
  ![_config.yml]({{ site.baseurl }}/images/04_ds_score_card.png)
 
- Herewith linked is a [short video](https://youtu.be/OLQj3RsANCQ) of how a score can be used in our case to display the no: of books in the data set. In this case, we assume that the number of rows in the data set is the number of books. Hence, the label `number of books` might be more meaningful in a visual. We can hence label the record count to "no; of books". Here is a short [simple video](https://youtu.berla1WW-QxgI) of how the record count can be relabelled to no: of books.  
+ Herewith linked is a [short video](https://youtu.be/OLQj3RsANCQ) of how a score can be used in our case to display the number of books in the data set. In this case, we assume that the number of rows in the data set is the number of books. Hence, the label `number of books` might be more meaningful in a visual. Here is a short [simple video](https://youtu.berla1WW-QxgI) of how the record count can be relabelled to no: of books.  
 
 ### Editing the data source 
  In case, if we need the data source to be [edited](https://youtu.be/HK6NCmXg3JA), that is also possible. There is an edit option to the data source. The data can be refreshed after reconnecting to the data source in case if it doesn't get automatically refreshed. 

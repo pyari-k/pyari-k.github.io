@@ -56,6 +56,7 @@ A score card in use will look like this:
  
 ### Charts 
 Bar Charts & Pie Charts can easily be created using looker. Below are two charts prepared using data studio. 
+
  ![_config.yml]({{ site.baseurl }}/images/04_ds_bar_chart.png)
  ![_config.yml]({{ site.baseurl }}/images/04_ds_pie_chart.png)
 

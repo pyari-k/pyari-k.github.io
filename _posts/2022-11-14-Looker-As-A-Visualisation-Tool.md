@@ -63,7 +63,7 @@ In this case, the data source is a google spreadsheet. It is to be noted that, l
 [Video demonstrating the change of label of a score card](https://youtu.be/rla1WW-QxgI) 
 
 ### Editing the data source 
-  Sometimes, we make changes to the source data. We add certain fields to the source data or we decide to remove some rows. In case we wante the data source to be edited on looker, that is also possible. 
+  Sometimes, we make changes to the source data. We add certain fields to the source data or we decide to remove some rows. In case we want the data source to be edited on looker, that is also possible. 
 
  [Video - Editing the data source](https://youtu.be/HK6NCmXg3JA)
  
@@ -121,7 +121,7 @@ Drop down list also helps build dynamic dashboard. This gives the flexibility to
  [Video - Drop Down List](https://youtu.be/oLMTYeCDJf0)
 
 ### There is more to Looker! 
-There are many more features on looker. Quickly touching upon on few more here. But, they are not elaborated. 
+There are many more features for looker. Quickly touching upon on few more here. But, they are not elaborated. 
 * One can divide the dashboard into pages. 
 * We have multiple connectors to connect to various data sources. 
 * We can add filters to the data. 

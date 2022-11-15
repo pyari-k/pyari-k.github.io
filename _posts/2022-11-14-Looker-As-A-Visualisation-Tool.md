@@ -36,8 +36,8 @@ There are many visualisation tools in the market. Some of them are:
 
  We will see all these a bit more in detail in the subsequent sections of the blog. 
 
- ### Data Set Used for the demo
-  For this demo, we are using [a dataset of books](https://docs.google.com/spreadsheets/d/11kStaWZ24G7ahZ9rsZ7Q2EAuzHwly8UaWilvue-jKQQ/edit?usp=sharing). This data set has a collection of books and information related to that. Now, let us try asking questions like these. 
+### Data Set Used for the demo
+For this demo, we are using [a dataset of books](https://docs.google.com/spreadsheets/d/11kStaWZ24G7ahZ9rsZ7Q2EAuzHwly8UaWilvue-jKQQ/edit?usp=sharing). This data set has a collection of books and information related to that. Now, let us try asking questions like these. 
 
 * How many books are there in the collection?
 * Can we find out the names of some of the authors in the collection and the number of books under their names?

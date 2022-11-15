@@ -56,7 +56,7 @@ In this case, the data source is a google spreadsheet. It is to be noted that, l
   Score card is an interesting visual component of data studio. This helps us to highlight any kpis or prominent numbers that we are looking for. A score card in use will look like this:
 ![_config.yml]({{ site.baseurl }}/images/04_ds_score_card.png)
 
-  In the case of our books data, it can be safely assumed that the number of rows in the data set is the number of books. Hence, the label `number of books` might be more meaningful in a visual. Hence it might be appropriate to label the score card to `number of books`
+  In the case of our books data, it can be safely assumed that the number of rows in the data set is the number of books. Hence, in this demo, the number of rows are counted and displayed as `number of books` using a score card.
 
 [Video demonstrating the creation of score card](https://youtu.be/OLQj3RsANCQ)
 

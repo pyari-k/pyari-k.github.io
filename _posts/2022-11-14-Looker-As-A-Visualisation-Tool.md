@@ -112,7 +112,7 @@ A slider helps you to choose the values in a selected range. With our data set, 
 Date picker is another feature which helps to build dynamic dashboards. The end user can select dates for viewing the data. When a date picker is used to chooses a start and end date, the dashboard gets redrawn with the data for the selected dates only. 
  ![_config.yml]({{ site.baseurl }}/images/05_ds_date_picker.png)
 
- [Video on a date picker linked here](https://youtu.be/aTmVSwqbwIQ) 
+ [Video - date picker](https://youtu.be/aTmVSwqbwIQ) 
 
 ### Drop down list
 Drop down list also helps build dynamic dashboard. This gives the flexibility to the end user to re-render the charts using the selected items in a drop down. For eg, if we want to give an option to the end user to choose the category of books to be defined by him/her to draw the charts, we can build a drop down list to our chart. 

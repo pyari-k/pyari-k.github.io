@@ -129,15 +129,13 @@ There are many more features for looker. Quickly touching upon on few more here.
 
 I will leave it to you to explore more of these features of looker. 
 
-All the videos used for this blog has been clubbed under a [looker playlist here](https://www.youtube.com/playlist?list=PLQTizSjUx0tXV7eyjmQZOG9KlyhQORnSh). 
-
-Happy Dashboarding. :) 
-
 ### Thank you
 * Thanks to WDA for the opportunity & selecting me to be a part of the current cohort. 
 * Thanks to my schoolmate and friend Dhanush, for allowing me to use his collection of books and the associated data for the demo purposes in this blog. 
 
+All the videos used in this blog has been clubbed under a [looker playlist here](https://www.youtube.com/playlist?list=PLQTizSjUx0tXV7eyjmQZOG9KlyhQORnSh). 
 
+Happy Dashboarding. :) 
 
 
 

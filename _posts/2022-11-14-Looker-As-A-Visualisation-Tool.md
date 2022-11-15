@@ -60,7 +60,7 @@ In this case, the data source is a google spreadsheet. It is to be noted that, l
 
 [Video demonstrating the creation of score card](https://youtu.be/OLQj3RsANCQ)
 
-[Video demonstrating the change of label of a score card](https://youtu.berla1WW-QxgI) 
+[Video demonstrating the change of label of a score card](https://youtu.be/rla1WW-QxgI) 
 
 ### Editing the data source 
   Sometimes, we make changes to the source data. We add certain fields to the source data or we decide to remove some rows. In case we wante the data source to be edited on looker, that is also possible. 

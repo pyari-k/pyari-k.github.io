@@ -53,7 +53,7 @@ In this case, the data source is a google spreadsheet. It is to be noted that, l
 [Video - demo on connecting looker to a data source](https://youtu.be/OaWl7dG35Qg).
 
 ### Score Card 
-  Score card is a good & beautiful feature of data studio. This helps us to highlight any kpis or prominent numbers that we are looking for. A score card in use will look like this:
+  Score card is an interesting visual component of data studio. This helps us to highlight any kpis or prominent numbers that we are looking for. A score card in use will look like this:
 ![_config.yml]({{ site.baseurl }}/images/04_ds_score_card.png)
 
   In the case of our books data, it can be safely assumed that the number of rows in the data set is the number of books. Hence, the label `number of books` might be more meaningful in a visual. Hence it might be appropriate to label the score card to `number of books`

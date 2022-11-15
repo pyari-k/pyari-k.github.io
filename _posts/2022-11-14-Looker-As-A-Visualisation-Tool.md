@@ -49,19 +49,23 @@ For this demo, we are using [a dataset of books](https://docs.google.com/spreads
 ### Connecting to the data source 
   The first step in building the visualisation is to `connect data studio or looker to the data source`. 
 In this case, the data source is a google spreadsheet. It is to be noted that, looker has connectors to various other data sources as well.
-[Video demo on connecting looker to a data source](https://youtu.be/OaWl7dG35Qg).
+
+[Video - demo on connecting looker to a data source](https://youtu.be/OaWl7dG35Qg).
 
 ### Score Card 
   Score card is a good & beautiful feature of data studio. This helps us to highlight any kpis or prominent numbers that we are looking for. A score card in use will look like this:
 ![_config.yml]({{ site.baseurl }}/images/04_ds_score_card.png)
 
   In the case of our books data, it can be safely assumed that the number of rows in the data set is the number of books. Hence, the label `number of books` might be more meaningful in a visual. Hence it might be appropriate to label the score card to `number of books`
+
 [Video demonstrating the creation of score card](https://youtu.be/OLQj3RsANCQ)
+
 [Video demonstrating the change of label of a score card](https://youtu.berla1WW-QxgI) 
 
 ### Editing the data source 
   Sometimes, we make changes to the source data. We add certain fields to the source data or we decide to remove some rows. In case we wante the data source to be edited on looker, that is also possible. 
- [Editing the data source](https://youtu.be/HK6NCmXg3JA)
+
+ [Video - Editing the data source](https://youtu.be/HK6NCmXg3JA)
  
 ### Charts 
   Bar Charts & Pie Charts can easily be created using looker. Below are two charts prepared using data studio. 

@@ -87,10 +87,12 @@ Before moving to some of the coolest features, let us touch upon some of the obv
 ### Access rights to the looker dashboards 
 Like in the case of google drive, one can share the dashboards via email IDs. 
 It is a powerful feature of Looker studio. 
+
 [Viideo - on Access Rights](https://youtu.be/EJZ_eeQwVHI)
 
 ### Edit mode and view mode 
 A dashboard has two type of users. The one who is creating the dashboard and the one who is viewing the end results. Looker hence has two modes. The one who is creating the dashboard mainly works with the edit mode. The end user gets to see the view mode. The creator of the dashboard has an option to switch between the modes so that she/he can get a feel of how the end user gets to see the final dashboard. 
+
 [Video - Edit mode & View Mode on Looker](https://youtu.be/wR30WdA-6r8) 
 
 So, we are moving to some of the coolest features of looker. 
@@ -109,11 +111,13 @@ A slider helps you to choose the values in a selected range. With our data set, 
 ### Date picker
 Date picker is another feature which helps to build dynamic dashboards. The end user can select dates for viewing the data. When a date picker is used to chooses a start and end date, the dashboard gets redrawn with the data for the selected dates only. 
  ![_config.yml]({{ site.baseurl }}/images/05_ds_date_picker.png)
+
  [Video on a date picker linked here](https://youtu.be/aTmVSwqbwIQ) 
 
 ### Drop down list
 Drop down list also helps build dynamic dashboard. This gives the flexibility to the end user to re-render the charts using the selected items in a drop down. For eg, if we want to give an option to the end user to choose the category of books to be defined by him/her to draw the charts, we can build a drop down list to our chart. 
  ![_config.yml]({{ site.baseurl }}/images/06_ds_drop_down_list.png)
+
  [Video - Drop Down List](https://youtu.be/oLMTYeCDJf0)
 
 ### There is more to Looker! 
@@ -129,7 +133,7 @@ All the videos used for this blog has been clubbed under a [looker playlist here
 
 Happy Dashboarding. :) 
 
-### Thank you section :)
+### Thank you
 * Thanks to WDA for the opportunity & selecting me to be a part of the current cohort. 
 * Thanks to my schoolmate and friend Dhanush, for allowing me to use his collection of books and the associated data for the demo purposes in this blog. 
 

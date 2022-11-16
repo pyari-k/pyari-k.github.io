@@ -88,7 +88,7 @@ Before moving to some of the coolest features, let us touch upon some of the obv
 Like in the case of google drive, one can share the dashboards via email IDs. 
 It is a powerful feature of Looker studio. 
 
-[Viideo - on Access Rights](https://youtu.be/EJZ_eeQwVHI)
+[Viideo - on Access Rights](https://youtu.be/gkfqiuPlnkA)
 
 ### Edit mode and view mode 
 A dashboard has two type of users. The one who is creating the dashboard and the one who is viewing the end results. Looker hence has two modes. The one who is creating the dashboard mainly works with the edit mode. The end user gets to see the view mode. The creator of the dashboard has an option to switch between the modes so that she/he can get a feel of how the end user gets to see the final dashboard. 

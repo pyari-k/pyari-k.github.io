@@ -32,6 +32,7 @@ Technology Enthusiast, Hands-on programmer @ 42, Loves teaching
 
 ##### Personal blog 
 * [Blog - Malayalam](http://mydreamsandpassions2.blogspot.com)
+* [Blog - Moments from life](http://mydreamsandpassions2.blogspot.com)
 
 ##### Not hiding my craziness!  
 * [An edit](https://www.youtube.com/watch?v=bOjDRuyCUDo)

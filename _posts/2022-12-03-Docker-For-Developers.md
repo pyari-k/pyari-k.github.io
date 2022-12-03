@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Docker for Developers (In Progress)
+title: Docker for Developers 
 ---
 
 This blog is meant to be a supplementary reading material for the below youtube videos on Dockers

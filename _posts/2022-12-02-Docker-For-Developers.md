@@ -4,25 +4,24 @@ title: Docker for Developers (In Progress)
 ---
 
 This blog is meant to be a supplementary reading material for the below youtube videos on Dockers
-* [Video 1](http://)
+* [Video 1](https://www.youtube.com/watch?v=Q6FfAOKGTzg)
 * [Video 2](http://)
 
 ### "It works on my machine problem!"
 Have you encountered the notorious "it works on my machine" problem?
-If you are a develper, I am sure you have! 
+If you are a developer, I am sure you have! 
 What is this problem? 
-We write a code and test it on our machine. When everything works fine, we move the code to a fellow developer or someone from the testing team only to find that it doesn't work on their machine! 
+We write a code and test it on our machine. When everything works fine, we move the code to a fellow developer or to the testing team only to find that it doesn't work on their machine! 
 Does this sound familiar?
 
 ### Variables in shipping
-Why does this happen? What changes when we move the code to another team member?
-Usually the variables are limited. Some of them are:
+Why does this happen? What changes when we move the code to another team member? Some of the differences could be:
 * the operating system in which both of us work
 * the difference in the version of the software in which the code is being compiled
 * dependencies/libraries and their versios 
 
 ### Solving the problem
-We all take different approaches in solving a problem like this. The solution would mostly depend on the technology in which we are working. For eg, if we are working on Python, a read me file with the right version of Python, a properly udpated requirements.txt file and a virtual environment would solve the problem.
+All of us take different approaches in solving a problem like this. The solution would mostly depend on the technology in which we are working. For eg, if we are working on Python, a readme file mentioning the right version of Python to be used, a properly udpated requirements.txt file and a virtual environment would solve the problem.
 
 However, in this blog, we are trying to solve this problem with Docker. This solution can be extended to work on any language in which you are opting to code. 
 
@@ -44,23 +43,26 @@ As per the readme, if we have to run the code via docker, we have to follow the 
 2. Ensure that the docker daemon runs (If on a mac, double clicking the docker icon would do the job)
 3. Clone the repository and change the working directory to docker-demo
 4. Run the below commands:
-   ``` docker build -t demo . 
-    docker run demo ```
 
-If we do the above, the code should succesfully run. Irrespective of the version of Python on your machine, the Python version printed out would be 3.10 (As seen in the picture) 
+``` 
+docker build -t demo . 
+docker run demo 
+```
+
+If we do the above, the code should succesfully run. Irrespective of the version of Python on your machine, the version printed out via the code would be 3.10 (As seen in the picture) 
  ![_config.yml]({{ site.baseurl }}/images/docker_demo_success_docker.png)
 
-### What happened?
-Docker created an isolated container environment for us to run our code. 
+### What really happened?
+The code did not run on our existing infrastructure as it is. Docker created an isolated container environment for us to run our code. 
 The advantages we get because of this are as follows:
-* The existing infrastrucure on your machine doesn't get tampered with. This would mean that, if you had a Python version of 3.8 on your machine and you were running your own codes with 3.8 version, this particular set up will not affect your other codes. That is because the version of Python on your code remains 3.8
+* The existing infrastrucure on your machine doesn't get tampered with. This would mean that, if you had a Python version of 3.8 on your machine and you were running your own codes with 3.8 version, this particular set up will not affect your other codes. That is because the version of Python on your code remains 3.8 even though the code we tried to run ran on Python 3.10. *The version `3.10` was set only  inside the container.* 
 
 * If the same repo is passed onto anyone else, they get the same experience as what you got on your machine
 
 ### How do you achieve this? - Dockerfile
-The [`Dockerfile`](https://github.com/pyari-k/docker-demo/blob/master/Dockerfile) in the repository is what helps us achieve all this. 
+The [`Dockerfile`](https://github.com/pyari-k/docker-demo/blob/master/Dockerfile) in the repository is what helps us achieve this. 
 
-If we take a look at the contents of the dockerfile, we can see that, it sets up the python version in the docker container. Install the dependencies from the requirements.txt file. It also runs test.py in Python. 
+If we take a look at the contents of the dockerfile, we can see that, it sets up the python version in the docker container. The dockerfile also installs the dependencies from the requirements.txt file. It also runs test.py on Python. 
 
 
 ### If you need some practise
@@ -68,12 +70,60 @@ If we take a look at the contents of the dockerfile, we can see that, it sets up
 Try running the repository on docker following the instructions in the [readme file](https://github.com/pyari-k/docker-demo/blob/master/readme.md) in the [demo repository](https://github.com/pyari-k/docker-demo)
 
 ### Practise problem 2 
-* create a new test.py. Run it on Python 3.10
-* Print out the version of Python in test.py file 
-* Print out the mean of 5 numbers using numpy 
+* create a new test.py
+* Add a line to print out the version of Python in test.py file 
+* Add a feature to print out the mean of 5 constant numbers using numpy 
+* Run test.py on Python 3.10
 * Does it run without docker? If so, how?
 * Make it run on docker
-* Try asking your friend to run test.py - with and without Python. Does it run?
+* Try asking your friend to run test.py with the dockerfile you created. Does it run?
 
+### Solution for the practise problem 1 
+* This solution can be seen the videos. (Video in Malayalam or Video in English)
 
+### Solution for the practise problem 2
+1. Create test.py, requirements.txt and dockerfile as below & dump them into a folder, say "docker-learn":
+2. Navigate to the folder docker-learn
+3. Install docker 
+4. Ensure that the docker daemon is running (double clicking the docker icon would do if you are on a mac)
+5. Run the below commands & check the version of Python printed out. It has to be 3.10
+``` 
+docker build -t demo . 
+docker run demo 
+```
+`test.py` 
+```
+import sys
+import numpy as np
+print(sys.version)
+a = 1
+b = 2
+c = 3
+d = 4
+e = 5
+avg = np.average([a, b, c , d, e])
+print("average of {}, {}, {}, {}, {} = {}".format(a, b, c, d, e, avg))
+```
 
+`requirements.txt`
+```
+numpy==1.23.5 
+```
+
+`dockerfile`
+```
+FROM python:3.10-slim
+copy requirements.txt requirements.txt
+copy *.py .
+run pip install -r requirements.txt
+cmd ["python", "test.py"]
+```
+
+### Tips for practise:
+Try out the practise problems to get a firm grip on the concept. 
+Go through the video/blog multiple times until you finish both the practise problems. 
+
+### Thank you! 
+Thanks to WDA & Usha Rengaraju for all the guidance and tips shared while working on this blog. 
+Thanks to Ian, my manager for helping me transition to new technologies with ease. 
+And, last but not the least, thanks to Muneer Marath, my perfectionist designer friend who has always given inputs taking his valuable time to help me improve the quality of my works. 

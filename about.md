@@ -21,6 +21,7 @@ Technology Enthusiast, Hands-on programmer @ 42, Loves teaching
 
 ##### Happy Developer - Short videos on developer tools
 * [Docker for developers - Malayalam](https://www.youtube.com/watch?v=Q6FfAOKGTzg)
+* [Docker for developers - English](https://youtu.be/CHP97oqRNgs)
 * [Short videos on Looker](https://www.youtube.com/playlist?list=PLQTizSjUx0tXV7eyjmQZOG9KlyhQORnSh)
 
 

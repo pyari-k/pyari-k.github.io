@@ -3,7 +3,7 @@ layout: post
 title: Docker for Developers (In Progress)
 ---
 
-This blog is meant to be a supplementary reading material for the below youtube videos on Dockers
+This blog is meant to be a supplementary reading material for the below youtube videos on Dockers. However, it can also be used as a standalone reading material to understand docker if you are new to it. 
 * [Video 1](https://www.youtube.com/watch?v=Q6FfAOKGTzg)
 * [Video 2](http://)
 
@@ -11,10 +11,10 @@ This blog is meant to be a supplementary reading material for the below youtube 
 Have you encountered the notorious "it works on my machine" problem?
 If you are a developer, I am sure you have! 
 What is this problem? 
-We write a code and test it on our machine. When everything works fine, we move the code to a fellow developer or to the testing team only to find that it doesn't work on their machine! 
+We write a code and test it on our machine. When everything works fine, we move the code to a fellow developer or to the testing team only to find that it doesn't work on their machines! 
 Does this sound familiar?
 
-### Variables in shipping
+### What changes while shipping a code? 
 Why does this happen? What changes when we move the code to another team member? Some of the differences could be:
 * the operating system in which both of us work
 * the difference in the version of the software in which the code is being compiled
@@ -38,10 +38,10 @@ If we clone this repository and run the command `python test.py`, we get an erro
 This is expected, because we have not installed the library yet. 
 
 ### Running the code via docker 
-As per the readme, if we have to run the code via docker, we have to follow the below steps:
+As per the readme file, if we have to run the code via docker, we have to follow the below steps:
 1. Install docker. This can be done from [here](https://docs.docker.com/get-docker/)
 2. Ensure that the docker daemon runs (If on a mac, double clicking the docker icon would do the job)
-3. Clone the repository and change the working directory to docker-demo
+3. Clone the [repository](https://github.com/pyari-k/docker-demo) and change the working directory to docker-demo
 4. Run the below commands:
 
 ``` 
@@ -49,13 +49,13 @@ docker build -t demo .
 docker run demo 
 ```
 
-If we do the above, the code should succesfully run. Irrespective of the version of Python on your machine, the version printed out via the code would be 3.10 (As seen in the picture) 
+If we do the above, the code should execute succesfully. Irrespective of the version of Python on your machine, the version printed out via the code would be 3.10 (As seen in the picture) 
  ![_config.yml]({{ site.baseurl }}/images/docker_demo_success_docker.png)
 
 ### What really happened?
 The code did not run on our existing infrastructure as it is. Docker created an isolated container environment for us to run our code. 
 The advantages we get because of this are as follows:
-* The existing infrastrucure on your machine doesn't get tampered with. This would mean that, if you had a Python version of 3.8 on your machine and you were running your own codes with 3.8 version, this particular set up will not affect your other codes. That is because the version of Python on your code remains 3.8 even though the code we tried to run ran on Python 3.10. *The version `3.10` was set only  inside the container.* 
+* The existing infrastrucure on your machine doesn't get tampered with. This would mean that, if you had a Python version of 3.8 on your machine and you were running your own codes with 3.8 version, this particular set up will not affect your other codes. That is because the version of Python on your code remains 3.8 even though the code we tried to run ran on Python 3.10. *The version `3.10` was set only  inside the container. And so are the libraries* 
 
 * If the same repo is passed onto anyone else, they get the same experience as what you got on your machine
 
@@ -126,4 +126,5 @@ Go through the video/blog multiple times until you finish both the practise prob
 ### Thank you! 
 Thanks to WDA & Usha Rengaraju for all the guidance and tips shared while working on this blog. 
 Thanks to Ian, my manager for helping me transition to new technologies with ease. 
-And, last but not the least, thanks to Muneer Marath, my perfectionist designer friend who has always given inputs taking his valuable time to help me improve the quality of my works. 
+Thanks to [Brian Holt](https://www.linkedin.com/in/btholt/) and his course on front end masters. It is from that course that I learnt Docker. 
+And, last but not the least, thanks to Muneer Marath, my perfectionist designer friend who has always taken time and given detailed inputs that keep helping me improve the quality of my works. 

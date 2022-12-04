@@ -120,8 +120,8 @@ cmd ["python", "test.py"]
 ```
 
 ### Tips for practise:
-Try out the practise problems to get a firm grip on the concept. 
-Go through the video/blog multiple times until you finish both the practise problems. 
+* Try out the practise problems to get a firm grip on the concept. 
+* Go through the video/blog multiple times until you finish both the practise problems. 
 
 ### Thank you! 
 Thanks to WDA & Usha Rengaraju for all the guidance and tips shared while working on this blog. 

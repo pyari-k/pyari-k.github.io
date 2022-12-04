@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Docker for Developers (In Progress)
+title: Docker for Developers 
 ---
 
 This blog is meant to be a supplementary reading material for the below youtube videos on Dockers. However, it can also be used as a standalone reading material to understand docker if you are new to it. 
-* [Video 1](https://www.youtube.com/watch?v=Q6FfAOKGTzg)
-* [Video 2](http://)
+* [Docker for Developers - English](https://youtu.be/CHP97oqRNgs)
+* [Docker for Developers - Malayalam](https://www.youtube.com/watch?v=Q6FfAOKGTzg)
+
 
 ### "It works on my machine problem!"
 Have you encountered the notorious "it works on my machine" problem?
@@ -124,7 +125,7 @@ cmd ["python", "test.py"]
 * Go through the video/blog multiple times until you finish both the practise problems. 
 
 ### Thank you! 
-Thanks to WDA & Usha Rengaraju for all the guidance and tips shared while working on this blog. 
+Thanks to all the organisers and speakers of the current cohort of WDA & to my patient mentor [Usha Rengaraju](https://www.linkedin.com/in/usha-rengaraju-b570b7a2/) for all the guidance and tips shared while working on the various course works. 
 Thanks to Ian, my manager for helping me transition to new technologies with ease. 
 Thanks to [Brian Holt](https://www.linkedin.com/in/btholt/) and his course on front end masters. It is from that course that I learnt Docker. 
-And, last but not the least, thanks to Muneer Marath, my perfectionist designer friend who has always taken time and given detailed inputs that keep helping me improve the quality of my works. 
+And, last but not the least, thanks to [Muneer Marath](https://www.linkedin.com/in/muneermarath/), my perfectionist designer friend who has always taken time and given detailed inputs that keep helping me improve the quality of my works. 

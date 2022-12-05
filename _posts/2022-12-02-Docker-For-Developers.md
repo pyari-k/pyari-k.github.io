@@ -3,7 +3,7 @@ layout: post
 title: Docker for Developers 
 ---
 
-This blog is meant to be a supplementary reading material for the below youtube videos on Dockers. However, it can also be used as a standalone reading material to understand docker if you are new to it. 
+This blog is meant to be a supplementary reading material for the below youtube videos on Docker. However, it can also be used as a standalone reading material to understand docker if you are new to it. 
 * [Docker for Developers - English](https://youtu.be/CHP97oqRNgs)
 * [Docker for Developers - Malayalam](https://www.youtube.com/watch?v=Q6FfAOKGTzg)
 
@@ -19,7 +19,7 @@ Does this sound familiar?
 Why does this happen? What changes when we move the code to another team member? Some of the differences could be:
 * the operating system in which both of us work
 * the difference in the version of the software in which the code is being compiled
-* dependencies/libraries and their versios 
+* dependencies/libraries and their versions 
 
 ### Solving the problem
 All of us take different approaches in solving a problem like this. The solution would mostly depend on the technology in which we are working. For eg, if we are working on Python, a readme file mentioning the right version of Python to be used, a properly udpated requirements.txt file and a virtual environment would solve the problem.
@@ -27,7 +27,7 @@ All of us take different approaches in solving a problem like this. The solution
 However, in this blog, we are trying to solve this problem with Docker. This solution can be extended to work on any language in which you are opting to code. 
 
 ### Demo Code 
-This demo is done on Python. But, it should not be problem to extend this learning to any other language. The course which I did had this being taught in node-js. However, extending this to Python was not a problem. 
+This demo is done on Python. But, it should not be problem to extend this learning to any other language. The course which I did had this taught in node-js. However, extending this to Python was not a problem. 
 So, let us get into the demo. 
 Let us try to run [this code](https://github.com/pyari-k/docker-demo) on Python
 
@@ -52,13 +52,13 @@ docker build -t demo .
 docker run demo 
 ```
 
-If we do the above, the code should execute succesfully. Irrespective of the version of Python on your machine, the version printed out via the code would be 3.10 (As seen in the picture) 
+If we do the above, the code should execute successfully. Irrespective of the version of Python on your machine, the version printed out via the code would be 3.10 (As seen in the picture) 
  ![_config.yml]({{ site.baseurl }}/images/docker_demo_success_docker.png)
 
 ### What really happened?
 The code did not run on our existing infrastructure as it is. Docker created an isolated container environment for us to run our code. 
 The advantages we get because of this are as follows:
-* The existing infrastrucure on your machine doesn't get tampered with. This would mean that, if you had a Python version of 3.8 on your machine and you were running your own codes with 3.8 version, this particular set up will not affect your other codes. That is because the version of Python on your code remains 3.8 even though the code we tried to run ran on Python 3.10. *The version `3.10` was set only  inside the container. And so are the libraries* 
+* The existing infrastructure on your machine doesn't get tampered with. This would mean that, if you had a Python version of 3.8 on your machine and you were running your own codes with 3.8 version, this particular set up will not affect your other codes. That is because the version of Python on your code remains 3.8 even though the code we tried to run ran on Python 3.10. *The version `3.10` was set only  inside the container. And so are the libraries* 
 
 * If the same repo is passed onto anyone else, they get the same experience as what you got on your machine
 

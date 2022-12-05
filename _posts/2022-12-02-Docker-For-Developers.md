@@ -27,6 +27,8 @@ All of us take different approaches in solving a problem like this. The solution
 However, in this blog, we are trying to solve this problem with Docker. This solution can be extended to work on any language in which you are opting to code. 
 
 ### Demo Code 
+This demo is done on Python. But, it should not be problem to extend this learning to any other language. The course which I did had this being taught in node-js. However, extending this to Python was not a problem. 
+So, let us get into the demo. 
 Let us try to run [this code](https://github.com/pyari-k/docker-demo) on Python
 
 As per the [readme file](https://github.com/pyari-k/docker-demo#readme), it can be seen that we are trying to run the file `test.py` on Python. The Python version to be used is `3.10`. The dependencies seems to be mentioned in the file `requirements.txt`
@@ -80,7 +82,7 @@ Try running the repository on docker following the instructions in the [readme f
 * Try asking your friend to run test.py with the dockerfile you created. Does it run?
 
 ### Solution for the practise problem 1 
-* This solution can be seen the videos. (Video in Malayalam or Video in English)
+* This solution can be seen the videos. ([Video - English](https://youtu.be/CHP97oqRNgs) or [Video - Malayalam](https://www.youtube.com/watch?v=Q6FfAOKGTzg))
 
 ### Solution for the practise problem 2
 1. Create test.py, requirements.txt and dockerfile as below & dump them into a folder, say "docker-learn":

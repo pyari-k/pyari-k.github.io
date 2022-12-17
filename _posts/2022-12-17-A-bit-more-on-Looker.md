@@ -52,6 +52,6 @@ Configuring the joins
  ![_config.yml]({{ site.baseurl }}/images/looker_join.png)
 
 
- A short descriptive video on the usage of blending data from multiple data sources is also linked [here](https://www.youtube.com/watch?v=Dji-fP_v9wY). 
+ A short descriptive video on the usage of blended data from multiple data sources is also linked [here](https://www.youtube.com/watch?v=Dji-fP_v9wY). 
 
 

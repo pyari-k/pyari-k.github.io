@@ -30,7 +30,6 @@ The second [student database](https://docs.google.com/spreadsheets/d/1gCuyqZv5Q2
 | 2       | 68    | 98      | 
 ```
 
-
 ### Clubbing both the data sources
 We will try to blend this data and make some visuals. 
 To do this, we have to first import both the data sets. After that, We can use the blend option to join the data sources. In this case, when we configure the joins, we can use the `id` field to join the data sources because that is the column which is the common field which binds the data sources. 
@@ -47,9 +46,9 @@ Configuring the joins
  ![_config.yml]({{ site.baseurl }}/images/looker_join.png)
 
 
+### Why club data sources?
+CLubbing data sources help us answer questions related to the entire data set. 
+For eg, in the above two data sets, we have student information in one set. In the second, we have student marks. 
+If we have to find the names of the top 5 students who scored the highest percentage, we can sort the clubbed data in the descending order of the percentages and we know who scored the best! 
 
-
-
-
-
-
+![_config.yml]({{ site.baseurl }}/images/blended_data_answers.png)

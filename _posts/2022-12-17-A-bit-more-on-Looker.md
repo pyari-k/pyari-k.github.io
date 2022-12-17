@@ -3,12 +3,12 @@ layout: post
 title:  Looker - Handling multiple data sources
 ---
 
-This blog is written in continuation to an [earlier blog on looker](https://pyari-k.github.io/Looker-As-A-Visualisation-Tool/). While we got introduced to the basic features of looker on the first blog, here we will be dealing with multiple data sources. We will see how we can join two tables and use that data for visualisation.
+This blog is written in continuation to an [earlier blog on looker](https://pyari-k.github.io/Looker-As-A-Visualisation-Tool/). While we got introduced to the basic features of looker on the first blog, here we will be dealing with multiple data sources. We will see how we can join two data sources and use the resultant data for visualisation.
 
 
 ### Understanding the sample data sources
-We have two data sources here. One is a student database. Linked [here](https://docs.google.com/spreadsheets/d/14am_Z1QvdhoPXWXaBixO22zLxCNGmEzy7cqTnBkGTFw/edit?usp=sharing). 
-It is in the format as below. 
+We will be using two data sources here. One is a student database. Linked [here](https://docs.google.com/spreadsheets/d/14am_Z1QvdhoPXWXaBixO22zLxCNGmEzy7cqTnBkGTFw/edit?usp=sharing). 
+It is in the format below. 
 
 
 ```
@@ -20,7 +20,7 @@ It is in the format as below.
 
 
 
-The second [student database](https://docs.google.com/spreadsheets/d/1gCuyqZv5Q2EXaxhPxMwGHYFe140MsP_awvx4k47fBx0/edit?usp=sharinghttps://docs.google.com/spreadsheets/d/1gCuyqZv5Q2EXaxhPxMwGHYFe140MsP_awvx4k47fBx0/edit?usp=sharing)) is the marks in science and maths for the students. The format is like below:
+The second one is the [marks data](https://docs.google.com/spreadsheets/d/1gCuyqZv5Q2EXaxhPxMwGHYFe140MsP_awvx4k47fBx0/edit?usp=sharinghttps://docs.google.com/spreadsheets/d/1gCuyqZv5Q2EXaxhPxMwGHYFe140MsP_awvx4k47fBx0/edit?usp=sharing)). It contains the marks scored by the students in science and maths. Below is the data format:
 
 
 ```
@@ -41,7 +41,7 @@ If we have to find the names of the top 5 students who scored the highest percen
 We will try to blend the data sources shared above and make some visuals. 
 To do this, we have to first import both the data sets. After that, We can use the blend option to join the data sources. In this case, when we configure the joins, we can use the `id` field to join the data sources because that is the column which is the common field which binds the data sources. 
 
-A short descriptive video on the usage of blending data from multiple data sources is also linked [here](https://www.youtube.com/watch?v=oru7tWFdJqk). 
+A short descriptive video on the usage of blending data from multiple data sources is also linked [here](https://www.youtube.com/watch?v=Dji-fP_v9wY). 
 
 Images showing how this can be achieved is also placed below. 
 

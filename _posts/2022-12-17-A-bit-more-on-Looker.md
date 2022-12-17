@@ -41,7 +41,6 @@ If we have to find the names of the top 5 students who scored the highest percen
 We will try to blend the data sources shared above and make some visuals. 
 To do this, we have to first import both the data sets. After that, We can use the blend option to join the data sources. In this case, when we configure the joins, we can use the `id` field to join the data sources because that is the column which is the common field which binds the data sources. 
 
-A short descriptive video on the usage of blending data from multiple data sources is also linked [here](https://www.youtube.com/watch?v=Dji-fP_v9wY). 
 
 Images showing how this can be achieved is also placed below. 
 
@@ -51,5 +50,8 @@ Blending data
 
 Configuring the joins
  ![_config.yml]({{ site.baseurl }}/images/looker_join.png)
+
+
+ A short descriptive video on the usage of blending data from multiple data sources is also linked [here](https://www.youtube.com/watch?v=Dji-fP_v9wY). 
 
 

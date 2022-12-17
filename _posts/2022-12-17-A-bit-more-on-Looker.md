@@ -11,20 +11,24 @@ We have two data sources here. One is a student database. Linked [here](https://
 It is in the format as below. 
 
 
-
+```
 | id      | firstname | lastname | email                     |
 | --------|-----------|----------|---------------------------|
 | 1       | Dolli     | Eldrid   | Dolli.Eldrid@xymails.com  |
 | 2       | Roberta   | Neils    | Roberta.Neils@xymails.com |
+```
+
 
 
 The second [student database](https://docs.google.com/spreadsheets/d/1gCuyqZv5Q2EXaxhPxMwGHYFe140MsP_awvx4k47fBx0/edit?usp=sharinghttps://docs.google.com/spreadsheets/d/1gCuyqZv5Q2EXaxhPxMwGHYFe140MsP_awvx4k47fBx0/edit?usp=sharing)) is the marks in science and maths for the students. The format is like below:
 
 
+```
 | id      | Maths | Biology |                      
 | --------|-------|---------|
 | 1       | 84    | 53      | 
 | 2       | 68    | 98      | 
+```
 
 
 ### Clubbing both the data sources

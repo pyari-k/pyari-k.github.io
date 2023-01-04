@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 
-Technology Enthusiast, Hands-on programmer, Loves teaching, Minimalist (or aspiring to be), Not spiritual/not religious
+Technology Enthusiast, Hands-on programmer, Loves teaching, Minimalist
 
 
 ##### Apps Developed

@@ -14,7 +14,7 @@ Let us look at some data and visuals to reinforce this concept.
 Case 1: Perfectly fitting data - Goodness of fit - 1 
 
 | Year   |      # of Videos      |  
-|--------|:---------------------:|
+|--------|---------------------  |
 |   1    |        10             | 
 |   2    |        20             | 
 |   3    |        30             | 

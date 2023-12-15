@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Looker - A good to know tool for first time managers 
+title: Looker Studio - A good to know tool for first time managers 
 ---
 
 ### Introduction 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Looker - Handling multiple data sources
+title:  A bit more on Looker Studio
 ---
 
 This blog is written in continuation to an [earlier blog on looker](https://pyari-k.github.io/Looker-Studio-As-A-Visualisation-Tool/). While we got introduced to the basic features of looker on the first blog, here we will be dealing with multiple data sources. We will see how we can join two data sources and use the resultant data for visualisation.

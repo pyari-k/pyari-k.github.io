@@ -15,9 +15,9 @@ Technology Enthusiast, Hands-on programmer, Loves teaching
 ##### Training Materials
 * [Github repository - Python Training](https://github.com/pyarisinghk/Python-Training)
 
-##### Chit chats 
+##### Chit chats - Where I talk tech
 * [Blog on Medium](https://medium.com/@pyari-kumaran)
-
+* [Mindfully Statistics - Blog](https://pyari.hashnode.dev/common-man-and-statistics-birthday-paradox)
 
 ##### Happy Developer - Short videos on developer tools
 * [Docker for developers - Malayalam](https://www.youtube.com/watch?v=Q6FfAOKGTzg)

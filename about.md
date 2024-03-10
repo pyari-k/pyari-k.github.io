@@ -40,6 +40,7 @@ Technology Enthusiast, Hands-on programmer, Loves teaching
 
 ##### Stay happy :) 
 * [Playlist](https://www.youtube.com/playlist?list=PL3nqqqYq7BxCL3uY7lAgsTHaW4D7Anam3)
+* [Playlist - Favourites of an 80s Malayali Girl](https://open.spotify.com/playlist/3eL8SWBNCXQRIA9BxrKHao)
 
 
 

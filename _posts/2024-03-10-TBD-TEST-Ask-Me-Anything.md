@@ -1,1 +1,0 @@
-<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NWtmY2w0MTZhanU1bmNsZWtvdXNrdm5rcXIgcHlhcmlzaW5naEBt&amp;tmsrc=pyarisingh%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>

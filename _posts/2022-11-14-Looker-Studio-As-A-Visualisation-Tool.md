@@ -23,16 +23,16 @@ There are many visualisation tools in the market. Some of them are:
 * qlikview
 * tableau
 * powerbi
-* Data studio (now looker)
+* Data studio (now looker studio)
 
-### Why Looker?
-  In this blog, we will be taking a look at data studio/looker in detail and get familiarised with it. The reasons, data studio is recommended over other tools is because of the following advantages:
+### Why Looker Studio?
+  In this blog, we will be taking a look at data studio/looker studio in detail and get familiarised with it. The reasons, data studio is recommended over other tools is because of the following advantages:
 * Like other products from Google, DS/Looker is cloud based. This also means that we do not have to install any software to start using this. We can type in `datastudio.google.com` or `lookerstudio.google.com` on our browser and login with our gmail. We are good to go. 
 * Connecting with data which is already on google drive is easy.  
 * Looker creates beautiful visualisations
 * There are cool features like sliders, date pickers and score cards that makes data visualisation customisable for the end users. 
 * Looker has two modes. An edit mode & a view mode. This helps the one who is creating the dashboard to get a feel of how the end user gets to see the dashboard with a toggle. 
-* Access rights are easy to control. It is very much similar to how it is done in the case of google drive. So, gmail users can have a smooth induction to data studio/looker.
+* Access rights are easy to control. It is very much similar to how it is done in the case of google drive. So, gmail users can have a smooth induction to data studio/looker studio.
 
  We will see all these a bit more in detail in the subsequent sections of the blog. 
 
@@ -47,10 +47,10 @@ For this demo, we are using [a dataset of books](https://docs.google.com/spreads
 * When were these books procured? Given a time period, say 2022 or the last 6 months, can I find the details of the books which are procured during that period?
 
 ### Connecting to the data source 
-  The first step in building the visualisation is to `connect data studio or looker to the data source`. 
-In this case, the data source is a google spreadsheet. It is to be noted that, looker has connectors to various other data sources as well.
+  The first step in building the visualisation is to `connect data studio or looker studio to the data source`. 
+In this case, the data source is a google spreadsheet. It is to be noted that, looker studio has connectors to various other data sources as well.
 
-[Video - demo on connecting looker to a data source](https://youtu.be/OaWl7dG35Qg).
+[Video - demo on connecting looker studio to a data source](https://youtu.be/OaWl7dG35Qg).
 
 ### Score Card 
   Score card is an interesting visual component of data studio. This helps us to highlight any kpis or prominent numbers that we are looking for. A score card in use will look like this:
@@ -63,12 +63,12 @@ In this case, the data source is a google spreadsheet. It is to be noted that, l
 [Video demonstrating the change of label of a score card](https://youtu.be/rla1WW-QxgI) 
 
 ### Editing the data source 
-  Sometimes, we make changes to the source data. We add certain fields to the source data or we decide to remove some rows. In case we want the data source to be edited on looker, that is also possible. 
+  Sometimes, we make changes to the source data. We add certain fields to the source data or we decide to remove some rows. In case we want the data source to be edited on looker studio, that is also possible. 
 
  [Video - Editing the data source](https://youtu.be/HK6NCmXg3JA)
  
 ### Charts 
-  Bar Charts & Pie Charts can easily be created using looker. Below are two charts prepared using data studio. 
+  Bar Charts & Pie Charts can easily be created using looker studio. Below are two charts prepared using data studio. 
 
 
  ![_config.yml]({{ site.baseurl }}/images/04_ds_bar_chart.png)
@@ -79,24 +79,24 @@ Creating a pie chart and bar chart is based on similar principles. All you have 
 In the case of the books data used in this demo, we can try plotting the original language in which these books are written using pie charts. The point to be noted here is that, when we choose the chart, the dimension to be choosen would be Original Language. 
 
 Videos demonstrating the creation of bar and pie charts are linked below:
-* [Video - creating a pie chart on looker](https://youtu.be/_LYQrW4J0GQ) 
-* [Video - creating a bar chart on looker](https://youtu.be/EJZ_eeQwVHI)
+* [Video - creating a pie chart on looker studio](https://youtu.be/_LYQrW4J0GQ) 
+* [Video - creating a bar chart on looker studio](https://youtu.be/EJZ_eeQwVHI)
 
-Before moving to some of the coolest features, let us touch upon some of the obvious & trivial features of looker. 
+Before moving to some of the coolest features, let us touch upon some of the obvious & trivial features of looker studio. 
 
-### Access rights to the looker dashboards 
+### Access rights to the looker studio dashboards 
 Like in the case of google drive, one can share the dashboards via email IDs. 
 It is a powerful feature of Looker studio. 
 
 [Viideo - on Access Rights](https://youtu.be/gkfqiuPlnkA)
 
 ### Edit mode and view mode 
-A dashboard has two type of users. The one who is creating the dashboard and the one who is viewing the end results. Looker hence has two modes. The one who is creating the dashboard mainly works with the edit mode. The end user gets to see the view mode. The creator of the dashboard has an option to switch between the modes so that she/he can get a feel of how the end user gets to see the final dashboard. 
+A dashboard has two type of users. The one who is creating the dashboard and the one who is viewing the end results. Looker studio hence has two modes. The one who is creating the dashboard mainly works with the edit mode. The end user gets to see the view mode. The creator of the dashboard has an option to switch between the modes so that she/he can get a feel of how the end user gets to see the final dashboard. 
 
-[Video - Edit mode & View Mode on Looker](https://youtu.be/wR30WdA-6r8) 
+[Video - Edit mode & View Mode on Looker Studio](https://youtu.be/wR30WdA-6r8) 
 
-So, we are moving to some of the coolest features of looker. 
-Don't you think that it is good to leave the end user do some exploration on the dashboard themselves? Looker dashboards can be made dynamic with the help of controls like:
+So, we are moving to some of the coolest features of looker studio. 
+Don't you think that it is good to leave the end user do some exploration on the dashboard themselves? Looker Studio dashboards can be made dynamic with the help of controls like:
 * slider
 * date picker
 * drop down list 
@@ -120,20 +120,20 @@ Drop down list also helps build dynamic dashboard. This gives the flexibility to
 
  [Video - Drop Down List](https://youtu.be/oLMTYeCDJf0)
 
-### There is more to Looker! 
-There are many more features for looker. Quickly touching upon on few more here. But, they are not elaborated. 
+### There is more to Looker Studio! 
+There are many more features for looker studio. Quickly touching upon on few more here. But, they are not elaborated. 
 * One can divide the dashboard into pages. 
 * We have multiple connectors to connect to various data sources. 
 * We can add filters to the data. 
 * There are many more types of charts and controls. 
 
-I will leave it to you to explore more of these features of looker. 
+I will leave it to you to explore more of these features of looker studio. 
 
 ### Thank you
 * Thanks to WDA for the opportunity & selecting me to be a part of the current cohort. 
 * Thanks to my schoolmate and friend [Dhanush](https://www.linkedin.com/in/dhanushgopinath/), for allowing me to use his collection of books and the associated data for the demo purposes in this blog. 
 
-All the videos used in this blog has been clubbed under a [looker playlist here](https://www.youtube.com/playlist?list=PLQTizSjUx0tXV7eyjmQZOG9KlyhQORnSh). 
+All the videos used in this blog has been clubbed under a [looker studio playlist here](https://www.youtube.com/playlist?list=PLQTizSjUx0tXV7eyjmQZOG9KlyhQORnSh). 
 
 Happy Dashboarding. :) 
 

@@ -18,6 +18,7 @@ Technology Enthusiast, Hands-on programmer, Loves teaching
 ##### Chit chats & tech chats :) 
 * [Blog on Medium](https://medium.com/@pyari-kumaran)
 * [Mindfully Statistics - Blog](https://pyari.hashnode.dev/common-man-and-statistics-birthday-paradox)
+* [Techchats with Pyari- whatsapp channel](https://whatsapp.com/channel/0029VahE6dwDuMRiDJiBNW1O)
 
 ##### Happy Developer - Short videos on developer tools
 * [Docker for developers - Malayalam](https://www.youtube.com/watch?v=Q6FfAOKGTzg)

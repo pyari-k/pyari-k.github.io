@@ -165,8 +165,8 @@ In case, you need a manual run of the cron job in between, the below command can
 ### Clean up:
 
 To remove the cronjob, the below kubectl command can be used
-
+```
 #kubectl delete cronjob <cronjob_name>
 kubectl delete cronjob etl-cronjob 
-
+```
 As always, happy coding and I am only a message away if you have any questions or comments!

@@ -1,24 +1,7 @@
 ---
 layout: post
-title: Getting Started With Kubernetes for Data Engineers
+title: Getting Started with Kubernetes - From A Data Engineers' persepctive
 ---
-
-### About the post
-All the Kubernetes demos, tutorials and books we usually come across have web based applications used for demonstrations. 
-Data Engineers have a slightly diffrent requirement and here a case of a scheduled standalone python application is being demonstrated. 
-This post is intended to simulate a case of scheduling an ETL python code on Kubernetes. 
-
-The blog was previously posted on [medium](https://pyari-kumaran.medium.com/learning-kubernetes-simulating-a-scheduled-etl-project-using-minikube-c5ab2ee5ba86). From the feedback I got so far, I was asked to elaborate on what Kubernetes is. So, I am including one section to explain what Kubernetes is. 
-
-### What to expect and what not to expect from this post
-I believe that whatever subject or technology you are learning, getting started is one of the biggest hurdles. Once you get started & get comfortable with the basics, then, exploring it is not a difficult task. Most of my blogs are hence written that way - so that it eases one into the subject in hand. In this blog as well, I am handling Kubernetes that way. It doesn't go indepth with Kubernetes. But, it will help you get started if you never knew where to get started if at all, you were to start from the scratch. 
-
-### References
-There is much more to learn on Kubernetes. Linking below are two resources which are helping me with my learnings. 
-(a) [Handson Quickstart Kubernetes by Nigel Poulton](https://www.amazon.de/-/en/Nigel-Poulton/dp/B09QFM8FWJ)
-![_config.yml]({{ site.baseurl }}/images/quick_start_kube.jpeg)
-(b) [Techworld with Nana - Youtube channel](https://www.youtube.com/c/techworldwithnana)
-
 
 ### Kubernetes - From an absolute beginner's perspective
 Let us say you write a code, you don't finally run it on your own machine. The production version of it runs on a server. These days, it usually runs on a cloud service provider & in a containarised form. Managing/orchestrating these standalone apps on cloud is a difficult task and that is where Kubernetes comes into picture. Some of the advantages of using Kubernetes is as below:
@@ -26,7 +9,27 @@ Let us say you write a code, you don't finally run it on your own machine. The p
 2. If an application crashes, Kubernetes can help bring it up again. In other words, with the help of Kubernetes, the app attains a self healing property. 
 3. It helps maintain the applications with minimal downtime. 
 
-This might not be a sophisticated or an exact definition. I just tried to make it as simple as possible. [Kubernetes' offical page](https://kubernetes.io/docs/concepts/overview/) has a very clear definition of what Kubernetes is
+This might not be a sophisticated or an exact definition. I just tried to make it as simple as possible. [Kubernetes' offical page](https://kubernetes.io/docs/concepts/overview/) has a very clear definition of what Kubernetes is.
+
+
+### About the post
+Most of the Kubernetes demos, tutorials and books we usually come across have web based applications used for demonstrations. 
+Data Engineers have a slightly diffrent requirement and here, a case of a scheduled standalone python application is being demonstrated. 
+This post is intended to simulate a case of scheduling an ETL python code on Kubernetes. 
+
+The blog was previously posted on [medium](https://pyari-kumaran.medium.com/learning-kubernetes-simulating-a-scheduled-etl-project-using-minikube-c5ab2ee5ba86). From the feedback I got so far, I was asked to elaborate on what Kubernetes is. So, tne initial section to explain what Kubernetes is added. 
+
+### What to expect and what not to expect from this post
+I believe that whatever subject or technology you are learning, getting started is one of the biggest hurdles. Once you get started & get comfortable with the basics & the environment, then, exploring it further is not a difficult task. Most of my blogs are hence written that way - so that it eases one into the subject in hand. In this blog as well, I am handling Kubernetes that way. It doesn't go indepth with Kubernetes. But, it will help you get started if you never knew where & how to get started, if at all you were to start from the scratch. 
+
+### References
+There is much more to learn on Kubernetes. Linked below are two resources which are helping me with my learnings. 
+
+(a) [Handson Quickstart Kubernetes by Nigel Poulton](https://www.amazon.de/-/en/Nigel-Poulton/dp/B09QFM8FWJ)
+
+![_config.yml]({{ site.baseurl }}/images/quick_start_kube.jpeg)
+
+(b) [Techworld with Nana - Youtube channel](https://www.youtube.com/c/techworldwithnana)
 
 
 ### Minikube 
@@ -37,32 +40,35 @@ Learning any cloud based tool has become a challenging affair because of the cos
 
 2. A dockerised python code performing an etl. A simple code which reads a csv file is already written on a repo [here](https://github.com/pyari-k/docker-demo) on my github. You may also use your own repo. The below git clone command should download the code on my repo in case you want to start from there.
 
-```git clone git@github.com:pyari-k/docker-demo.git
-```
+`git clone git@github.com:pyari-k/docker-demo.git`
 
-3. Minikube needs to be installed on our machines. The below command on terminal should do the job.
+3. Minikube needs to be installed on our machines. The below command should do the job.
 
 `brew install minikube` 
 
-4. Let us test whether our prerequisites are met. Do the below
-```#change directory to docker-demo
+4. Let us test whether our prerequisites are met. Do the below:
+
+```
+#change directory to docker-demo
 docker build -t demo . #this is just a test. the command should build the docker image succesfully. 
 # we will not be using the above docker image 
 docker run demo
 ```
 The above should run our dockerised python code and give an output like the below. It should show the no: of records read from the csv, the result of pinging google.com and also the time of running the code.
 
-![_config.yml]({{ site.baseurl }}/images/docker_run.jpeg)
+![_config.yml]({{ site.baseurl }}/images/docker_run.png)
 
 Let us now start using minikube. We will run the below 3 commands to start minikube and to set docker environment to point to minikube’s docker demon. We can also build the docker image there.
 
-```minikube start #this will start minikube if it is not already running
+```
+minikube start #this will start minikube if it is not already running
 
 # Set Docker environment to point to Minikube's Docker daemon
 eval $(minikube docker-env)
 
 # Build the Docker image
-docker build -t etl-image .```
+docker build -t etl-image .
+```
 
 To run the containarised application, you now need to create a Kubernetes Deployment. A sample `deployment.yaml` file is attached below. This would create a deployment by name `etl-deployment`. You may note that the deployment points to the docker image we created above — `etl-image`.
 
@@ -103,7 +109,7 @@ kubectl logs <pod_name> #eg: kubectl logs etl-deployment-66ff4ffc5d-rsk5k
 
 The above should show the logs of the program. This time, the program runs on the new deployment.
 
-![_config.yml]({{ site.baseurl }}/images/docker_run.jpeg)
+![_config.yml]({{ site.baseurl }}/images/docker_run.png)
 
 
 ### ETL/Data Engineering specific requirements
@@ -137,7 +143,7 @@ spec:
           containers:
           - name: etl-container
             image: etl-image:latest
-            imagePullPolicy: Never
+            imagePullPolicy: Never 
           restartPolicy: OnFailure
 ```
 To create the cronjob, you can use the same kubectl apply command, this time with the cronjob file instead.

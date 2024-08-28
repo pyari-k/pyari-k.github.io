@@ -52,3 +52,5 @@ Let us try to plot a scatter plot and try to fit in a curve here and see what wo
 
 This is the plot and we can see that the value of `$R^2$` is 0.97. Visually we can see that the line fits decently well within the points though not perfectly. The number matches ```math R^2``` = 0.97 which is close to 1 quantifies this.
 
+
+([Mindfully statistics](https://pyari.hashnode.dev/) is now moved into a new blog altogether - linking it [here](https://pyari.hashnode.dev/))

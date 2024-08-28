@@ -4,7 +4,7 @@ title: Getting Started with Kubernetes - From A Data Engineers' persepctive
 ---
 
 ### Kubernetes - From an absolute beginner's perspective
-Let us say you write a code, you don't finally run it on your own machine. The production version of it runs on a server. These days, it usually runs on a cloud service provider & in a containarised form. Managing/orchestrating these standalone apps on cloud is a difficult task and that is where Kubernetes comes into picture. Some of the advantages of using Kubernetes is as below:
+Let us say you write a code, you don't finally run it on your own machine. The production version of it runs on a server. These days, it usually runs on a cloud & many a times in a containarised form. Managing/orchestrating these standalone apps on cloud is a difficult task and that is where Kubernetes comes into picture. Some of the advantages of using Kubernetes is as below:
 1. Kubernetes helps scale the applications in case of heavier loads. That way, when the load is low, Kubernetes helps to scale down as well. 
 2. If an application crashes, Kubernetes can help bring it up again. In other words, with the help of Kubernetes, the app attains a self healing property. 
 3. It helps maintain the applications with minimal downtime. 
@@ -17,7 +17,7 @@ Most of the Kubernetes demos, tutorials and books we usually come across have we
 Data Engineers have a slightly diffrent requirement and here, a case of a scheduled standalone python application is being demonstrated. 
 This post is intended to simulate a case of scheduling an ETL python code on Kubernetes. 
 
-The blog was previously posted on [medium](https://pyari-kumaran.medium.com/learning-kubernetes-simulating-a-scheduled-etl-project-using-minikube-c5ab2ee5ba86). From the feedback I got so far, I was asked to elaborate on what Kubernetes is. So, tne initial section to explain what Kubernetes is added. 
+The blog was previously posted on [medium](https://pyari-kumaran.medium.com/learning-kubernetes-simulating-a-scheduled-etl-project-using-minikube-c5ab2ee5ba86). From the feedback I got so far, I was asked to elaborate on what Kubernetes is. Hence tne initial section to explain what Kubernetes is added. 
 
 ### What to expect and what not to expect from this post
 I believe that whatever subject or technology you are learning, getting started is one of the biggest hurdles. Once you get started & get comfortable with the basics & the environment, then, exploring it further is not a difficult task. Most of my blogs are hence written that way - so that it eases one into the subject in hand. In this blog as well, I am handling Kubernetes that way. It doesn't go indepth with Kubernetes. But, it will help you get started if you never knew where & how to get started, if at all you were to start from the scratch. 
@@ -40,11 +40,11 @@ Learning any cloud based tool has become a challenging affair because of the cos
 
 2. A dockerised python code performing an etl. A simple code which reads a csv file is already written on a repo [here](https://github.com/pyari-k/docker-demo) on my github. You may also use your own repo. The below git clone command should download the code on my repo in case you want to start from there.
 
-`git clone git@github.com:pyari-k/docker-demo.git`
+```git clone git@github.com:pyari-k/docker-demo.git```
 
 3. Minikube needs to be installed on our machines. The below command should do the job.
 
-`brew install minikube` 
+```brew install minikube``` 
 
 4. Let us test whether our prerequisites are met. Do the below:
 
@@ -99,7 +99,7 @@ spec:
 
 To apply/create the deployment, the below kubectl command may be used:
 
-`kubectl apply -f deployment.yaml `
+```kubectl apply -f deployment.yaml ```
 
 To ensure that everything has gone smooth, you may use the below commands to check the logs
 ```
@@ -148,7 +148,7 @@ spec:
 ```
 To create the cronjob, you can use the same kubectl apply command, this time with the cronjob file instead.
 
-`kubectl apply -f cronjob.yaml`
+```kubectl apply -f cronjob.yaml```
 
 To ensure that the jobs have triggered correctly, you can check the logs once again and you should be able to view the new run times in the logs corresponding to every run.
 
@@ -160,7 +160,7 @@ kubectl logs <pod_name>
 ```
 
 In case, you need a manual run of the cron job in between, the below command can be used:
-`kubectl create job --from=cronjob/etl-cronjob etl-manual-job`
+```kubectl create job --from=cronjob/etl-cronjob etl-manual-job```
 
 ### Clean up:
 

@@ -36,6 +36,7 @@ Technology Enthusiast, Hands-on programmer, Loves teaching
 ##### Personal blog 
 * [Blog - Malayalam](http://mydreamsandpassions2.blogspot.com)
 * [Blog - Moments from life](https://my-dreams-and-passions-3.blogspot.com)
+* [Cheatsheet - Deutsch](https://me-learning-deutsch.blogspot.com/)
 
 ##### Not hiding my craziness!  
 * [An edit](https://www.youtube.com/watch?v=bOjDRuyCUDo)

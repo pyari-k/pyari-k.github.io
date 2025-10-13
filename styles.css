@@ -76,6 +76,27 @@ header {
     font-weight: 700;
     margin-bottom: 1rem;
     animation: fadeInUp 1s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.copilot-logo {
+    animation: pulse 2s infinite;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 .hero-content p {
@@ -385,7 +406,14 @@ footer {
     }
     
     .hero-content h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+    
+    .copilot-logo {
+        width: 36px;
+        height: 36px;
+        margin-right: 10px !important;
     }
     
     .hero-content p {
@@ -424,7 +452,16 @@ footer {
     }
     
     .hero-content h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .copilot-logo {
+        width: 32px;
+        height: 32px;
+        margin-right: 0 !important;
+        margin-bottom: 10px;
     }
     
     .btn {

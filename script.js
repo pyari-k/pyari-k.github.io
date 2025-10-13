@@ -86,23 +86,24 @@ function addInteractivity() {
     });
     */
     
-    // Add typing effect to hero text (optional enhancement)
-    const heroTitle = document.querySelector('.hero-content h1');
+    // Add typing effect to hero text (optional enhancement) - DISABLED
+    const heroTitle = document.querySelector('.hero-content h1 .no-animation');
     if (heroTitle) {
-        const text = heroTitle.textContent;
-        heroTitle.textContent = '';
-        let i = 0;
+        // Typing effect disabled - text appears normally
+        // const text = heroTitle.textContent;
+        // heroTitle.textContent = '';
+        // let i = 0;
         
-        function typeWriter() {
-            if (i < text.length) {
-                heroTitle.textContent += text.charAt(i);
-                i++;
-                setTimeout(typeWriter, 100);
-            }
-        }
+        // function typeWriter() {
+        //     if (i < text.length) {
+        //         heroTitle.textContent += text.charAt(i);
+        //         i++;
+        //         setTimeout(typeWriter, 100);
+        //     }
+        // }
         
         // Start typing effect after a delay
-        setTimeout(typeWriter, 500);
+        // setTimeout(typeWriter, 500);
     }
 }
 

@@ -82,7 +82,7 @@ header {
     flex-wrap: wrap;
 }
 
-.copilot-logo {
+.gemini-logo {
     animation: pulse 2s infinite;
     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
 }
@@ -414,7 +414,7 @@ footer {
         line-height: 1.2;
     }
     
-    .copilot-logo {
+    .gemini-logo {
         width: 36px;
         height: 36px;
         margin-right: 10px !important;
@@ -461,7 +461,7 @@ footer {
         gap: 10px;
     }
     
-    .copilot-logo {
+    .gemini-logo {
         width: 32px;
         height: 32px;
         margin-right: 0 !important;

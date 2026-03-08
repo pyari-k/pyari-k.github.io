@@ -1,4 +1,4 @@
-# Pyari Singh - Portfolio Website
+# Portfolio Website
 
 A modern, responsive portfolio website built for GitHub Pages.
 

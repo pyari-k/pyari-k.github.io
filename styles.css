@@ -69,49 +69,83 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 900px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.badge-container {
+    width: 100%;
+    display: block;
+    margin-bottom: 4rem; /* Increased margin for complete clearance */
+    text-align: center;
+}
+
+.hero-badge {
+    position: relative;
+    display: inline-block;
+    background: #ff3e3e; /* High-Visibility Red */
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    animation: fadeInUp 1s ease-out, pulse-heavy 2s infinite;
+    box-shadow: 0 5px 15px rgba(255, 62, 62, 0.4);
+    border: 2px solid white;
+    transform: rotate(12deg);
+    z-index: 10;
+    width: auto;
+    height: auto;
+}
+
+@keyframes pulse-heavy {
+    0% { transform: scale(1) rotate(12deg); }
+    50% { transform: scale(1.05) rotate(12deg); }
+    100% { transform: scale(1) rotate(12deg); }
+}
+
+@media (max-width: 992px) {
+    .hero-badge {
+        position: relative;
+        top: 0;
+        right: 0;
+        transform: rotate(-2deg);
+        margin: 0 auto 2rem;
+        display: inline-block;
+    }
 }
 
 .hero-content h1 {
     font-size: 3.5rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    animation: fadeInUp 1s ease-out;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.gemini-logo {
-    animation: pulse 2s infinite;
-    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
-}
-
-.no-animation {
-    animation: none !important;
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.05);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-.hero-content p {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-    opacity: 0.9;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
     animation: fadeInUp 1s ease-out 0.2s both;
 }
 
-.hero-buttons {
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    opacity: 0.9;
     animation: fadeInUp 1s ease-out 0.4s both;
+}
+
+.hero-buttons {
+    margin-bottom: 3rem;
+    animation: fadeInUp 1s ease-out 0.6s both;
+}
+
+.hero-footer-text {
+    font-size: 1rem;
+    opacity: 0.7;
+    animation: fadeInUp 1s ease-out 0.8s both;
 }
 
 .btn {

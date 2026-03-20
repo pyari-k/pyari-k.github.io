@@ -39,7 +39,7 @@ header {
 }
 
 .logo h2 {
-    color: #667eea;
+    color: #004e92;
     font-weight: 700;
 }
 
@@ -57,12 +57,12 @@ header {
 }
 
 .nav-menu a:hover {
-    color: #667eea;
+    color: #004e92;
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #004e92 0%, #000428 100%);
     color: white;
     min-height: 100vh;
     display: flex;
@@ -126,7 +126,7 @@ header {
 
 .btn.primary {
     background: white;
-    color: #667eea;
+    color: #004e92;
 }
 
 .btn.primary:hover {
@@ -141,7 +141,7 @@ header {
 
 .btn.secondary:hover {
     background: white;
-    color: #667eea;
+    color: #004e92;
     transform: translateY(-2px);
 }
 
@@ -170,6 +170,35 @@ section h2 {
 }
 
 /* Apps Section */
+.featured-project {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.featured-project .app-card.featured {
+    max-width: 900px;
+    width: 100%;
+    border: 2px solid #004e92;
+    position: relative;
+    overflow: hidden;
+    padding: 3rem;
+    background: linear-gradient(to bottom right, #ffffff, #f0f4ff);
+}
+
+.featured-badge {
+    position: absolute;
+    top: 20px;
+    right: -35px;
+    background: #004e92;
+    color: white;
+    padding: 0.5rem 3rem;
+    transform: rotate(45deg);
+    font-size: 0.8rem;
+    font-weight: 700;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
 .apps-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -193,7 +222,7 @@ section h2 {
 
 .app-icon {
     font-size: 3rem;
-    color: #667eea;
+    color: #004e92;
     margin-bottom: 1.5rem;
 }
 
@@ -210,7 +239,7 @@ section h2 {
 }
 
 .app-link {
-    color: #667eea;
+    color: #004e92;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1rem;
@@ -252,7 +281,7 @@ section h2 {
 
 .category-header i {
     font-size: 2rem;
-    color: #667eea;
+    color: #004e92;
     margin-right: 1rem;
 }
 
@@ -268,7 +297,7 @@ section h2 {
 }
 
 .blog-link {
-    color: #667eea;
+    color: #004e92;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1rem;
@@ -326,7 +355,7 @@ section h2 {
 }
 
 .media-link {
-    color: #667eea;
+    color: #004e92;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1rem;
@@ -338,7 +367,7 @@ section h2 {
 
 /* Contact Section */
 .contact {
-    background: #667eea;
+    background: #004e92;
     color: white;
 }
 
@@ -379,7 +408,7 @@ section h2 {
 
 .contact-link:hover {
     background: white;
-    color: #667eea;
+    color: #004e92;
     transform: translateY(-2px);
 }
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=1.2">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
@@ -35,10 +35,10 @@
                     </svg>
                     <span class="no-animation">Experimenting with Gemini CLI! :)</span>
                 </h1>
-                <p>Programmer • Writer • Data Enthusiast</p>
+                <p>Data Engineer • Educator • Tech Explorer</p>
                 <div class="hero-buttons">
-                    <a href="#projects" class="btn primary">View My Work</a>
-                    <a href="#contact" class="btn secondary">Get In Touch</a>
+                    <a href="https://www.udemy.com/course/simplifying-data-pipelines-using-dbt/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com" class="btn primary" target="_blank">Enroll in my dbt Course (Free for a limited time!)</a>
+                    <a href="#projects" class="btn secondary">View All Projects</a>
                 </div>
             </div>
         </section>
@@ -47,9 +47,11 @@
         <section id="about" class="about">
             <div class="container">
                 <h2>About Me</h2>
-                <p>Let me be honest. This is an AI written content!</p>
-
-                <p>I'm a passionate developer and trainer who loves creating innovative applications, sharing knowledge through technical writing, and exploring creative content. Welcome to my digital space where technology meets creativity.</p>
+                <div class="about-content" style="text-align: left; max-width: 900px; margin: 0 auto;">
+                    <p style="margin-bottom: 1.5rem;">I'm <strong>Pyari Singh Kumaran</strong>, a Data Engineer and Educator currently based in Germany. With a strong foundation in building scalable data pipelines, I'm passionate about simplifying complex technical concepts for others—most recently through my <strong>dbt training module on Udemy (Free for a limited time!)</strong>.</p>
+                    
+                    <p>Welcome to my digital space, where I share my projects, writings, and the creative experiments that drive my professional life.</p>
+                </div>
             </div>
         </section>
 
@@ -57,8 +59,9 @@
         <section id="projects" class="apps">
             <div class="container">
                 <h2>Personal Projects</h2>
-                <div class="apps-grid">
-                    <div class="app-card">
+                <div class="featured-project" id="featured-course">
+                    <div class="app-card featured">
+                        <div class="featured-badge">Featured Course</div>
                         <div class="app-icon">
                             <i class="fas fa-database"></i>
                         </div>
@@ -68,6 +71,8 @@
                             <i class="fas fa-external-link-alt"></i> View Course on Udemy
                         </a>
                     </div>
+                </div>
+                <div class="apps-grid">
                     <div class="app-card">
                         <div class="app-icon">
                             <i class="fas fa-mobile-alt"></i>

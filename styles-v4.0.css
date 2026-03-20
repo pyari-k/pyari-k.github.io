@@ -81,8 +81,9 @@ header {
 .badge-container {
     width: 100%;
     display: block;
-    margin-bottom: 5rem; /* Increased significantly to ensure no overlap */
+    margin-bottom: 3.5rem;
     text-align: center;
+    animation: fadeInUp 1s ease-out 0.4s both;
 }
 
 .hero-badge {
@@ -112,22 +113,23 @@ header {
 .hero-content h1 {
     font-size: 3.5rem;
     font-weight: 800;
-    margin-top: 2rem; /* Added top margin for extra clearance */
+    margin-top: 0;
     margin-bottom: 1.5rem;
     line-height: 1.2;
-    animation: fadeInUp 1s ease-out 0.2s both;
+    animation: fadeInUp 1s ease-out 0s both;
 }
 
 .hero-subtitle {
-    font-size: 1.5rem;
-    margin-bottom: 3rem;
-    opacity: 0.9;
-    animation: fadeInUp 1s ease-out 0.4s both;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+    opacity: 0.95;
+    animation: fadeInUp 1s ease-out 0.2s both;
 }
 
 .hero-buttons {
-    margin-bottom: 3rem;
-    animation: fadeInUp 1s ease-out 0.6s both;
+    margin-bottom: 3.5rem;
+    animation: fadeInUp 1s ease-out 0.4s both;
 }
 
 .hero-footer-text {

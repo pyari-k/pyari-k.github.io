@@ -81,7 +81,7 @@ header {
 .badge-container {
     width: 100%;
     display: block;
-    margin-bottom: 4rem; /* Increased margin for complete clearance */
+    margin-bottom: 5rem; /* Increased significantly to ensure no overlap */
     text-align: center;
 }
 
@@ -90,41 +90,40 @@ header {
     display: inline-block;
     background: #ff3e3e; /* High-Visibility Red */
     color: white;
-    padding: 0.5rem 1.2rem;
-    border-radius: 4px;
+    padding: 0.6rem 2rem;
+    border-radius: 50px; /* Pill Style */
     font-weight: 800;
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    animation: fadeInUp 1s ease-out, pulse-heavy 2s infinite;
+    animation: fadeInUp 1s ease-out, pulse-pill 2s infinite;
     box-shadow: 0 5px 15px rgba(255, 62, 62, 0.4);
     border: 2px solid white;
-    transform: rotate(12deg);
+    transform: none; /* No Tilt */
     z-index: 10;
-    width: auto;
-    height: auto;
 }
 
-@keyframes pulse-heavy {
-    0% { transform: scale(1) rotate(12deg); }
-    50% { transform: scale(1.05) rotate(12deg); }
-    100% { transform: scale(1) rotate(12deg); }
+@keyframes pulse-pill {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
+    .badge-container {
+        margin-bottom: 3rem; /* Still large on mobile */
+    }
+    
     .hero-badge {
-        position: relative;
-        top: 0;
-        right: 0;
-        transform: rotate(-2deg);
-        margin: 0 auto 2rem;
-        display: inline-block;
+        font-size: 0.8rem;
+        padding: 0.5rem 1.5rem;
     }
 }
 
 .hero-content h1 {
     font-size: 3.5rem;
     font-weight: 800;
+    margin-top: 2rem; /* Added top margin for extra clearance */
     margin-bottom: 1.5rem;
     line-height: 1.2;
     animation: fadeInUp 1s ease-out 0.2s both;
